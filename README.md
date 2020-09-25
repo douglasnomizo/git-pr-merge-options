@@ -5,13 +5,14 @@ The goal of this repository is to provide examples of using the 3 Github options
 - Squash and Merge
 - Rebase and Merge
 
+More information here: [Merge methods on GitHub](https://docs.github.com/en/github/administering-a-repository/about-merge-methods-on-github)
+
 ## Branches
 
 All branches will be merged into master using the option defined by their names:
-- merge-branch
 - rebase-branch
 - squash-branch
-
+- merge-branch
 
 ## Rebase and Merge
 
@@ -22,11 +23,7 @@ In this example we have the following commits:
 - rebase: fix typo
 - rebase: add rebase branch merging info
 
-### PR
-
 ![Rebase PR](images/01_rebase_pr.png)
-
-### Result
 
 ![Master Result](images/02_rebase_result.png)
 
@@ -39,13 +36,19 @@ In this example we have the following commits:
 - squash: update image to focus on Github option for rebase
 - squash: add squash information and .gitignore
 
-### PR
-
 ![Squash PR](images/03_squash_pr.png)
 
-### Result
+![Squash Commit Form](images/04_squash_commit_form.png)
 
-![Master Result](images/04_squash_result.png)
+![Squash Result](images/05_squash_result.png)
+
+## Merge
+
+This is the default method and generates a merge commit from your `merge-branch` branch into `master` 
+In this example we have the following commits:
+- merge: add borders to images
+- merge: adds information about Github merge option
+
 
 ### Author
 
