@@ -19,10 +19,10 @@ All branches will be merged into master using the option defined by their names:
 
 All commits from `rebase-branch` are added to `master`
 In this example we have the following commits:
-- rebase: adding README.md file
-- rebase: add information to README.md
-- rebase: fix typo
-- rebase: add rebase branch merging info
+- `rebase: adding README.md file`
+- `rebase: add information to README.md`
+- `rebase: fix typo`
+- `rebase: add rebase branch merging info`
 
 ![Rebase PR](images/01_rebase_pr.png)
 
@@ -33,9 +33,9 @@ In this example we have the following commits:
 All commits from `squash-branch` turn into a single commit that is added to `master`
 When merging, Github allows you to update the commit message to explain the purpose of the PR.
 In this example we have the following commits:
-- squash: add some images about rebase and merge option
-- squash: update image to focus on Github option for rebase
-- squash: add squash information and .gitignore
+- `squash: add some images about rebase and merge option`
+- `squash: update image to focus on Github option for rebase`
+- `squash: add squash information and .gitignore`
 
 ![Squash PR](images/03_squash_pr.png)
 
@@ -45,11 +45,11 @@ In this example we have the following commits:
 
 ## Merge (Create a merge commit)
 
-This is the default method and generates a merge commit from `merge-branch` branch into `master` 
+This is the default method. All commits from `merge-branch` are added to `master` and it also generates a merge commit.
 In this example we have the following commits:
-- merge: add borders to images
-- merge: adds information about Github merge option
-- merge: clean up README
+- `merge: add borders to images`
+- `merge: adds information about Github merge option`
+- `merge: clean up README`
 
 ![Merge PR](images/06_merge_pr.png)
 
