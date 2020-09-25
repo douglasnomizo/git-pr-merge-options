@@ -8,4 +8,4 @@ The goal of this repository is to provide examples of using the 3 Github options
 
 ## Author
 
-Doug Nomizo
+Douglas Nomizo
