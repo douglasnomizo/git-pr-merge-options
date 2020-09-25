@@ -22,7 +22,13 @@ In this example we have the following commits:
 - rebase: fix typo
 - rebase: add rebase branch merging info
 
+### PR
 
+![Rebase PR](images/01_rebase_pr.png)
+
+### Result
+
+![Master Result](images/02_rebase_result.png)
 
 ### Author
 
